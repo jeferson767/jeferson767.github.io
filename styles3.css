@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    max-height: 50px;
+    border-radius: 50%; /* Hace que el logo sea redondo */
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+    
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eee9e2;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-button:hover {
+    background-color: #ff0000; /* Color verde oscuro al pasar el ratón */
+    text-decoration: nrgb(136, 33, 33)
+}
+
+.nav-button {
+    background-color: #28a745; /* Color verde */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px; /* Hace que los botones sean redondos */
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #218838; /* Color verde oscuro al pasar el ratón */
+    text-decoration: none; /* Mantener el texto sin subrayado */
+}
