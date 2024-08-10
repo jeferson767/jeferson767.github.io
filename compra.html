@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Imagen Interactivo</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    
+    <header>
+        <img src="https://th.bing.com/th/id/OIP.j3aM0RLtWKYBpJ2xBGJYHQHaHX?pid=ImgDet&w=204&h=202&c=7" alt="Logo" class="logo">
+        <nav>
+            <a href="index.html" class="nav-button">Nosotros</a>
+            <a href="contactenos.html" class="nav-button">contacternos</a>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="producto-removebg-preview.png" alt="Minecraft Screenshot" class="screenshot">
+        <table class="checklist">
+            <tr>
+                <td class="cross disabled" onclick="decrementValue(this)">X</td>
+                <td class="check" onclick="incrementValue(this)">✔</td>
+                <td>Sensor de humedad</td>
+            </tr>
+            <tr>
+                <td class="cross disabled" onclick="decrementValue(this)">X</td>
+                <td class="check" onclick="incrementValue(this)">✔</td>
+                <td>Sensor de lluvia</td>
+            </tr>
+            <tr>
+                <td class="cross disabled" onclick="decrementValue(this)">X</td>
+                <td class="check" onclick="incrementValue(this)">✔</td>
+                <td>App bluetooth</td>
+            </tr>
+        </table>
+        <div class="price">
+            $<span id="price">200000</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

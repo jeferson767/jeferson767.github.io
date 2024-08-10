@@ -101,3 +101,10 @@ nav {
     background-color: #218838; /* Color verde oscuro al pasar el ratón */
     text-decoration: none; /* Mantener el texto sin subrayado */
 }
+
+.screenshot {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
