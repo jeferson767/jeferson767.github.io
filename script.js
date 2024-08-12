@@ -1,11 +1,11 @@
 // Variable para almacenar el precio inicial
-let price = 200000;
+let price = 480000;
 
 // Función para decrementar el valor
 function decrementValue(element) {
     if (element.classList.contains("disabled")) return;
 
-    price -= 10000; // Disminuye el precio en 10000 (puedes ajustar este valor)
+    price -= 25000; // Disminuye el precio en 10000 (puedes ajustar este valor)
     updatePrice();
 
     // Desactiva la celda de la "X" y activa la celda de la "✔"
@@ -17,7 +17,7 @@ function decrementValue(element) {
 function incrementValue(element) {
     if (element.classList.contains("disabled")) return;
 
-    price += 10000; // Incrementa el precio en 10000 (puedes ajustar este valor)
+    price += 25000; // Incrementa el precio en 10000 (puedes ajustar este valor)
     updatePrice();
 
     // Desactiva la celda de la "✔" y activa la celda de la "X"
