@@ -17,7 +17,7 @@ function decrementValue(element) {
 function incrementValue(element) {
     if (element.classList.contains("disabled")) return;
 
-    price += 25000; // Incrementa el precio en 10000 (puedes ajustar este valor)
+    price += 35000; // Incrementa el precio en 10000 (puedes ajustar este valor)
     updatePrice();
 
     // Desactiva la celda de la "✔" y activa la celda de la "X"
