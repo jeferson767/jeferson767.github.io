@@ -5,7 +5,7 @@ let price = 480000;
 function decrementValue(element) {
     if (element.classList.contains("disabled")) return;
 
-    price -= 35000; // Disminuye el precio en 10000 (puedes ajustar este valor)
+    price -= 25000; // Disminuye el precio en 10000 (puedes ajustar este valor)
     updatePrice();
 
     // Desactiva la celda de la "X" y activa la celda de la "✔"
