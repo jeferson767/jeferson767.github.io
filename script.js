@@ -1,5 +1,5 @@
 // Variable para almacenar el precio inicial
-let price = 6050;
+let price = 60500;
 
 // Función para decrementar el valor
 function decrementValue(element) {
