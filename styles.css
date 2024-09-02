@@ -52,6 +52,12 @@ nav {
 .columna{
 background-image: url('https://www.solofondos.com/wp-content/uploads/2015/12/Fondos-de-jardines-para-Photoshop.jpg'); 
 line-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    color: #fff;
+    position: relative;
 
 }
 
