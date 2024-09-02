@@ -49,6 +49,12 @@ nav {
     position: relative;
 }
 
+.columna{
+background-image: url('https://www.solofondos.com/wp-content/uploads/2015/12/Fondos-de-jardines-para-Photoshop.jpg'); 
+line-height: 900px;
+
+}
+
 .textims {
     color: #fff;
     text-transform: uppercase;
